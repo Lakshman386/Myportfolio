@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Lakshminarayana Senagavarapu's portfolio showcasing DevOps skills, projects, certifications, and experience.">
+  <meta property="og:title" content="Lakshminarayana Senagavarapu | DevOps Portfolio">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <title>Portfolio | Lakshminarayana Senagavarapu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">Lakshminarayana's Portfolio</a>
+        <nav class="navbar" id="navbar">
+      <a href="#about" style="--i:1" class="active">ABOUT</a>
+      <a href="#work-experience" style="--i:3">Experience</a>
+      <a href="#projects" style="--i:5">Projects</a>
+      <a href="#skills" style="--i:2">Skills</a>
+      <a href="#certifications" style="--i:6">Certification</a>
+      <a href="#Education" style="--i:4">Education</a>
+      <a href="#contact" style="--i:7">Contact</a>
+    </nav>
+    <div class="menu-icon" id="menu-icon"><i class='bx bx-menu'></i></div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section-wrapper home-section">
+    <div class="home-container">
+      <div class="home-image">
+        <img src="images/projects/profile.png" alt="Lakshminarayana Profile" />
+      </div>
+
+      <div class="home-content">
+        <h1>Lakshminarayana Senagavarapu</h1>
+        <p>DevOps Engineer</p>
+
+        <div class="home-buttons">
+          <a href="#contact" class="btn-hire">Hire Me</a>
+          <a href="images/resume_2025.pdf" class="btn-download" download>Download CV</a>
+        </div>
+
+        <div class="home-sci">
+          <a href="https://www.linkedin.com/in/lakshminarayana-senagavarapu" target="_blank"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/Lakshman386" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="#"><i class='bx bxl-whatsapp'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="mailto:lakshminarayanas386@gmail.com"><i class='bx bxs-envelope'></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About -->
+<section class="about-section" id="about" class="section-wrapper about-section">
+  <div class="about-container">
+    <div class="about-left">
+      <h2>About</h2>
+      <ul>
+        <li>DevOps Engineer with 1+ years of experience</li>
+        <li>Worked with Software Development Life Cycle (SDLC) and agile methodologies</li>
+        <li>Expertise in Terraform and Configuration files</li>
+        <li>Good understanding of HTML, CSS, Python and databases like MySQL</li>
+        <li>Knowledge of various software design principles and patterns</li>
+        <li>Used various cloud services with AWS</li>
+        <li>Used various tools like Docker, GitHub, Jenkins etc.</li>
+      </ul>
+      <p class="about-summary">
+        Results-driven AWS DevOps Engineer with hands-on experience in automating, 
+        deploying, and managing infrastructure across cloud platforms. With expertise 
+        in CI/CD pipelines, container orchestration (Docker & Kubernetes), Infrastructure 
+        as Code (Terraform & Ansible), and monitoring tools like Prometheus and Grafana, 
+        I specialize in streamlining software delivery and scaling resilient applications.<br>
+        Open to roles where I can continue driving automation, innovation, and operational excellence while growing with evolving DevOps and Cloud technologies.
+      </p>
+    </div>
+
+    <div class="about-right">
+      <h2>Basic Information</h2>
+      <ul class="info-list">
+        <li><strong>Date of Birth:</strong> June 16, 1999</li>
+        <li><strong>Email:</strong> lakshminarayanas386@gmail.com</li>
+        <li><strong>Phone:</strong> +91 7288081290</li>
+        <li><strong>Address:</strong> Hyderabad, India</li>
+        <li><strong>Language:</strong> English, Telugu</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- work-experience -->
+<section class="work-experience" id="work-experience" class="section-wrapper work-experience-section">
+  <h2 class="section-title">Work Experience</h2>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="experience-card">
+      <h3>GREATCODER TRAININGS LLP <span>- September 2024 to Present, Hyderabad</span></h3>
+      <h4>AWS DevOps Engineer</h4>
+      <ul>
+        <li>Working as a DevOps Engineer</li>
+        <li>Responsible for handling and managing the CI/CD work and Docker files/scripts for automation. Written Dockerfiles and docker-compose to build and push images to Amazon ECR.</li>
+        <li>Creating snapshots and AMIs of instances for backup and cloning</li>
+        <li>Created IaC tool using CDKTF for AWS Lambda, integrated SNS, SQS, and VPC — built using TypeScript</li>
+        <li>Managed AWS assets and integrated multiple AWS services into end-to-end solutions</li>
+        <li>Knowledge of SonarQube for continuous code quality inspection</li>
+        <li>Proficient in Terraform to automate various manual tasks</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="projects-section" id="projects" class="section-wrapper projects-section">
+  <h2 class="projects-title">Projects</h2>
+
+  <div class="projects-container">
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/mean-p.png" alt="Terraform AWS" />
+      </div>
+      <h3>MEAN Stack CRUD App with CI/CD & Docker</h3>
+      <p><strong>Technology :</strong> Jenkins and Docker</p>
+      <a href="images/projects/mean-app.png" class="blog-link">Read Blog on this Project</a>
+      <div class="project-buttons">
+        <a href="images/projects/mean-app.png" class="btn">Live Demo</a>
+        <a href="https://github.com/Lakshman386/mean-crud-app.git" class="btn">GitHubLink</a>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/projects/AI-logo.png" alt="AI-BOT App" />
+      </div>
+      <h3>Ai-Bot Streamlit App</h3>
+      <p><strong>Technology :</strong> Python</p>
+      <a href="images/projects/AI-Bot.png" class="blog-link">Read Blog on this Project</a>
+      <div class="project-buttons">
+        <a href="images/projects/AI-Bot.png" class="btn">Live Demo</a>
+        <a href="https://github.com/Lakshman386/Ai-Bot.git" class="btn">GitHubLink</a>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="images/kuber-p.png" alt="PEAN Stack App" />
+      </div>
+      <h3>Automated DevOps Deployment for Pet Shop Application</h3>
+      <p><strong>Technology :</strong> Docker and Kubernetes</p>
+      <a href="images/projects/petshop.png" class="blog-link">Read Blog on this Project</a>
+      <div class="project-buttons">
+        <a href="images/projects/petshop.png" class="btn">Live Demo</a>
+        <a href="https://github.com/Lakshman386/Kubernetes.git" class="btn">GitHubLink</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Card 4 -->
+  <!-- <div class="project-card">
+    <div class="project-image">
+      <img src="images/kuber-p.png" alt="PEAN Stack App" />
+    </div>
+    <h3>Automated DevOps Deployment for Pet Shop Application</h3>
+    <p><strong>Technology :</strong> Docker and Kubernetes</p>
+    <a href="images/projects/petshop.png" class="blog-link">Read Blog on this Project</a>
+    <div class="project-buttons">
+      <a href="images/projects/petshop.png" class="btn">Live Demo</a>
+      <a href="https://github.com/Lakshman386/Kubernetes.git" class="btn">GitHubLink</a>
+    </div>
+  </div>
+</div> -->
+
+  <!-- Pagination -->
+  <div class="pagination">
+    <span class="inactive">&laquo; Previous</span>
+    <span class="active-page">1</span>
+    <span class="inactive">Next &raquo;</span>
+  </div>
+</section>
+
+
+<!-- Skills -->
+<h2 class="skills-title">Skills</h2>
+<section class="skills-section" id="skills" class="section-wrapper skills-section">
+  <div class="skills-container">
+    <div class="skills-column">
+      <div class="skill">
+        <span class="skill-name">AWS & AZURE</span><span class="skill-percent">70%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">LINUX</span><span class="skill-percent">75%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">GIT</span><span class="skill-percent">85%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">GITHUB</span><span class="skill-percent">80%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">JENKINS</span><span class="skill-percent">90%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">DOCKER</span><span class="skill-percent">70%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">KUBERNETES</span><span class="skill-percent">60%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 60%;"></div></div>
+      </div>
+    </div>
+
+    <div class="skills-column">
+      <div class="skill">
+        <div class="skill">
+          <span class="skill-name">ANSIBLE</span><span class="skill-percent">70%</span>
+          <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">TERRAFORM</span><span class="skill-percent">70%</span>
+          <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+        </div>
+        <span class="skill-name">PROMETHEUS & GRAFANA</span><span class="skill-percent">85%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">PYTHON</span><span class="skill-percent">70%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">BASH & SHELL SCRIPTING</span><span class="skill-percent">70%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">PROMPTING</span><span class="skill-percent">60%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 60%;"></div></div>
+      </div>
+      <div class="skill">
+        <span class="skill-name">HTML & CSS</span><span class="skill-percent">80%</span>
+        <div class="skill-bar"><div class="skill-fill" style="--skill-level: 70%;"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Certification -->
+<section class="certifications-section" id="certifications" class="section-wrapper certifications-section">
+  <h2 class="section-title">Certifications</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <h3>AWS Educate Introduction to Generative AI</h3>
+        <a href="https://www.credly.com/badges/0e5013ee-3a20-4f38-9ea0-03efa58c9f3d/linked_in_profile" target="_blank">click here to verify my certification</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <h3>AWS Knowledge: Cloud Essentials</h3>
+        <a href="https://www.credly.com/badges/b9825385-2c34-4fcb-a133-3d720191b00c/linked_in_profile" target="_blank">click here to verify my certification</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <h3>The Art of Prompt Engineering</h3>
+        <a href="https://courses.cognitiveclass.ai/certificates/e76bcc965b644a43871a7ddc817f9a1b" target="_blank">click here to verify my certification</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <h3>SQL and Relational Databases 101</h3>
+        <a href="https://courses.cognitiveclass.ai/certificates/f870209bc234427ebcd28104082bf3cc" target="_blank">click here to verify my certification</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Education -->
+<section class="education-section" id="Education" class="section-wrapper education-section">
+  <h2 class="section-title">Education</h2>
+  <div class="education-card visible">
+    <div class="education-year">
+      <p class="year">2017 - 2021</p>
+      <h3>Bachelor's Degree</h3>
+    </div>
+    <div class="education-details">
+      <h3>Bachelor of Technology (Mechenical Engineering)</h3>
+      <h4><strong>KKR & KSR INSTITUTE TECHNOLOGY AND SCIENCES</strong></h4>
+      <ul>
+        <li>Affiliated with JNTU University, Kakinada</li>
+        <li>Completed B.Tech in Mechenical Engineering with <strong>73%</strong>.</li>
+        <li>Maintained approx. <strong>70%</strong> in every semester of college academic.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact-section" id="contact" class="section-wrapper contact-section">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <div class="contact-form">
+        <h3>Feel free to contact me</h3>
+        <form action="https://formspree.io/f/xjkwbnaa" method="POST">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>        
+      </div>
+      <div class="contact-info">
+        <p><strong>Phone</strong><br>+91 7288081290</p>
+        <p><strong>Email</strong><br>lakshminarayanas386@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/lakshminarayana-senagavarapu"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/Lakshman386"><i class='bx bxl-github'></i></a>
+      <a href="#"><i class="bx bxl-twitter"></i></a>
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+    <p>© 2024 Lakshminarayana Senagavarapu. All rights reserved.</p>
+  </footer>
+</section>
+
+  
+<script src="final.js"></script>
+</body>
+</html>
